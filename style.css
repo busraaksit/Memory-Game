@@ -1,0 +1,22 @@
+body {
+    background-image: url(foto/1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.card{
+    margin: 48px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 16px;
+}
+
+.tile{
+    height: 100px;
+    background: #111111;
+    border: 5px solid #a45353;
+    cursor: pointer;
+}
